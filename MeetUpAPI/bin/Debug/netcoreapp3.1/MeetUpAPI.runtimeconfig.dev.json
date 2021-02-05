@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\vladimir.denda\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\vladimir.denda\\.nuget\\packages"
+    ]
+  }
+}
