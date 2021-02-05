@@ -23,6 +23,25 @@ namespace MeetUpAPI.Controllers
             _mapper = mapper;
         }
 
+        public ActionResult Delete(string meetupName)
+        {
+            var meetup = _meetupContext.Meetups
+              .Include(m => m.Lectures)
+              .FirstOrDefault(m => m.Name.Replace(" ", "-").ToLower() == meetupName.ToLower());
+
+            if (meetup == null)
+            {
+                return NotFound();
+            }
+
+            _meetupContext.Lectures.RemoveRange(meetup.Lectures);
+            _meetupContext.SaveChanges();
+
+            return NoContent();
+
+
+        }
+
         [HttpGet]
         public ActionResult Get(string meetupName)
         {
