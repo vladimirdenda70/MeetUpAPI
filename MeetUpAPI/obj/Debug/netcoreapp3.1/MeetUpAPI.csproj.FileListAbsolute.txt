@@ -6,7 +6,6 @@ C:\Users\vladimir.denda\source\repos\MeetUpAPI\MeetUpAPI\bin\Debug\netcoreapp3.1
 C:\Users\vladimir.denda\source\repos\MeetUpAPI\MeetUpAPI\bin\Debug\netcoreapp3.1\MeetUpAPI.runtimeconfig.dev.json
 C:\Users\vladimir.denda\source\repos\MeetUpAPI\MeetUpAPI\bin\Debug\netcoreapp3.1\MeetUpAPI.dll
 C:\Users\vladimir.denda\source\repos\MeetUpAPI\MeetUpAPI\bin\Debug\netcoreapp3.1\MeetUpAPI.pdb
-C:\Users\vladimir.denda\source\repos\MeetUpAPI\MeetUpAPI\obj\Debug\netcoreapp3.1\MeetUpAPI.csprojAssemblyReference.cache
 C:\Users\vladimir.denda\source\repos\MeetUpAPI\MeetUpAPI\obj\Debug\netcoreapp3.1\MeetUpAPI.AssemblyInfoInputs.cache
 C:\Users\vladimir.denda\source\repos\MeetUpAPI\MeetUpAPI\obj\Debug\netcoreapp3.1\MeetUpAPI.AssemblyInfo.cs
 C:\Users\vladimir.denda\source\repos\MeetUpAPI\MeetUpAPI\obj\Debug\netcoreapp3.1\MeetUpAPI.csproj.CoreCompileInputs.cache
@@ -63,3 +62,14 @@ C:\Users\vladimir.denda\source\repos\MeetUpAPI\MeetUpAPI\bin\Debug\netcoreapp3.1
 C:\Users\vladimir.denda\source\repos\MeetUpAPI\MeetUpAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\vladimir.denda\source\repos\MeetUpAPI\MeetUpAPI\bin\Debug\netcoreapp3.1\AutoMapper.dll
 C:\Users\vladimir.denda\source\repos\MeetUpAPI\MeetUpAPI\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\vladimir.denda\source\repos\MeetUpAPI\MeetUpAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\vladimir.denda\source\repos\MeetUpAPI\MeetUpAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\vladimir.denda\source\repos\MeetUpAPI\MeetUpAPI\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\vladimir.denda\source\repos\MeetUpAPI\MeetUpAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\vladimir.denda\source\repos\MeetUpAPI\MeetUpAPI\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\vladimir.denda\source\repos\MeetUpAPI\MeetUpAPI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\vladimir.denda\source\repos\MeetUpAPI\MeetUpAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\vladimir.denda\source\repos\MeetUpAPI\MeetUpAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\vladimir.denda\source\repos\MeetUpAPI\MeetUpAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\vladimir.denda\source\repos\MeetUpAPI\MeetUpAPI\obj\Debug\netcoreapp3.1\MeetUpAPI.csprojAssemblyReference.cache
+C:\Users\vladimir.denda\source\repos\MeetUpAPI\MeetUpAPI\obj\Debug\netcoreapp3.1\MeetUpAPI.MvcApplicationPartsAssemblyInfo.cs
