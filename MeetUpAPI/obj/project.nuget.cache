@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "jveYakJ4gTRFHSe3VF87Hh/+Sejo2zC6hK9et2v6D+KqW0Qc3G2NlOegXdYIJT4EBhogXyT6wEB1n207kjpVJw==",
+  "dgSpecHash": "jQ/VCBqhxm7Vsgha7gnKGb0BBcbq1Uvz7MXJoYq77CyG4iK136KhZX7TjTtHrltpERj3itH1y51dgkPhco+WTw==",
   "success": true,
   "projectFilePath": "C:\\Users\\vladimir.denda\\source\\repos\\MeetUpAPI\\MeetUpAPI\\MeetUpAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vladimir.denda\\.nuget\\packages\\automapper\\10.1.0\\automapper.10.1.0.nupkg.sha512",
     "C:\\Users\\vladimir.denda\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
+    "C:\\Users\\vladimir.denda\\.nuget\\packages\\fluentvalidation\\9.5.0\\fluentvalidation.9.5.0.nupkg.sha512",
+    "C:\\Users\\vladimir.denda\\.nuget\\packages\\fluentvalidation.aspnetcore\\9.5.0\\fluentvalidation.aspnetcore.9.5.0.nupkg.sha512",
+    "C:\\Users\\vladimir.denda\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\9.5.0\\fluentvalidation.dependencyinjectionextensions.9.5.0.nupkg.sha512",
     "C:\\Users\\vladimir.denda\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\vladimir.denda\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.0.0\\microsoft.aspnetcore.authentication.abstractions.2.0.0.nupkg.sha512",
     "C:\\Users\\vladimir.denda\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.0.0\\microsoft.aspnetcore.authentication.core.2.0.0.nupkg.sha512",

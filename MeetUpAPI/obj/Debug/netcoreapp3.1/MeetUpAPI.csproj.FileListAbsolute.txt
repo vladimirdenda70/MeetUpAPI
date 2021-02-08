@@ -73,3 +73,6 @@ C:\Users\vladimir.denda\source\repos\MeetUpAPI\MeetUpAPI\bin\Debug\netcoreapp3.1
 C:\Users\vladimir.denda\source\repos\MeetUpAPI\MeetUpAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\vladimir.denda\source\repos\MeetUpAPI\MeetUpAPI\obj\Debug\netcoreapp3.1\MeetUpAPI.csprojAssemblyReference.cache
 C:\Users\vladimir.denda\source\repos\MeetUpAPI\MeetUpAPI\obj\Debug\netcoreapp3.1\MeetUpAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\vladimir.denda\source\repos\MeetUpAPI\MeetUpAPI\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Users\vladimir.denda\source\repos\MeetUpAPI\MeetUpAPI\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
+C:\Users\vladimir.denda\source\repos\MeetUpAPI\MeetUpAPI\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll

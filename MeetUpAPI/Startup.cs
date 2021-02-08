@@ -1,9 +1,14 @@
 using AutoMapper;
+using FluentValidation;
+using FluentValidation.AspNetCore;
 using MeetUpAPI.Entites;
+using MeetUpAPI.Models;
+using MeetUpAPI.Validators;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -29,7 +34,10 @@ namespace MeetUpAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
+
+            services.AddScoped<IPasswordHasher<User>, PasswordHasher<User>>();
+            services.AddControllers().AddFluentValidation();
+            services.AddScoped<IValidator<RegisterUserDto>, RegisterUserValidator>();
             services.AddDbContext<MeetupContext>();
             services.AddScoped<MeetupSeeder>();
             services.AddAutoMapper(this.GetType().Assembly);
