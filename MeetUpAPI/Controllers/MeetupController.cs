@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using MeetUpAPI.Entites;
 using MeetUpAPI.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -12,7 +13,8 @@ namespace MeetUpAPI.Controllers
 {
    
     [Route("api/meetup")]
-    
+    [Authorize]
+
     public class MeetupController:ControllerBase
     {
         private readonly MeetupContext _meetupContext;
@@ -25,6 +27,7 @@ namespace MeetUpAPI.Controllers
         }
 
         [HttpGet]
+        [AllowAnonymous]
         public ActionResult<List<MeetupDetailsDto>> Get()
         {
             var meetups = _meetupContext.Meetups.Include(m => m.Location).ToList();
@@ -34,6 +37,7 @@ namespace MeetUpAPI.Controllers
         }
 
         [HttpGet("{name}")]
+ 
         public ActionResult<List<MeetupDetailsDto>> Get(string name)
         {
             var meetup = _meetupContext.Meetups
@@ -52,6 +56,8 @@ namespace MeetUpAPI.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles ="Admin")]
+        [Authorize(Roles = "Moderator")]
         public ActionResult Post([FromBody]MeetupDto model)
         {
             if (!ModelState.IsValid)

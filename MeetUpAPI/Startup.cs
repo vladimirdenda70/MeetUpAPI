@@ -84,6 +84,8 @@ namespace MeetUpAPI
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "MeetupAPI v1");
             }
             );
+
+
             
             if (env.IsDevelopment())
             {
