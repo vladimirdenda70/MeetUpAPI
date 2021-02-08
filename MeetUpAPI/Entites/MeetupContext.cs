@@ -9,7 +9,12 @@ namespace MeetUpAPI.Entites
     public class MeetupContext : DbContext
     {
 
-        string _connectionString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=MU_Data;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+        private string _connectionString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=MU_Data;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+
+        public DbSet<Role> Roles { get; set; }
+        public DbSet<User> Users { get; set; }
+
+
         public DbSet<Meetup> Meetups { get; set; }
         public DbSet<Location> Location { get; set; }
         public DbSet<Lecture> Lectures { get; set; }
@@ -17,6 +22,11 @@ namespace MeetUpAPI.Entites
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<User>()
+                .HasOne(u => u.Role);
+
+
+
             modelBuilder.Entity<Meetup>()
                    .HasOne(m => m.Location)
                    .WithOne(l => l.Meetup)
