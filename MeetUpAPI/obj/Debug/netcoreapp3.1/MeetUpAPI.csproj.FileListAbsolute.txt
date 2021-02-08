@@ -76,3 +76,4 @@ C:\Users\vladimir.denda\source\repos\MeetUpAPI\MeetUpAPI\obj\Debug\netcoreapp3.1
 C:\Users\vladimir.denda\source\repos\MeetUpAPI\MeetUpAPI\bin\Debug\netcoreapp3.1\FluentValidation.dll
 C:\Users\vladimir.denda\source\repos\MeetUpAPI\MeetUpAPI\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
 C:\Users\vladimir.denda\source\repos\MeetUpAPI\MeetUpAPI\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\vladimir.denda\source\repos\MeetUpAPI\MeetUpAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll

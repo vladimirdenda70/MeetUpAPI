@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jQ/VCBqhxm7Vsgha7gnKGb0BBcbq1Uvz7MXJoYq77CyG4iK136KhZX7TjTtHrltpERj3itH1y51dgkPhco+WTw==",
+  "dgSpecHash": "gzB0bleZU/IVftr1YVuGbhTPZkQgNtQ8NY01hFlUACLwDygKvdtYT2DIQcRBYQud/NF1Aqe8jrzakPmlMQdRaQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\vladimir.denda\\source\\repos\\MeetUpAPI\\MeetUpAPI\\MeetUpAPI.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "C:\\Users\\vladimir.denda\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\vladimir.denda\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.0.0\\microsoft.aspnetcore.authentication.abstractions.2.0.0.nupkg.sha512",
     "C:\\Users\\vladimir.denda\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.0.0\\microsoft.aspnetcore.authentication.core.2.0.0.nupkg.sha512",
+    "C:\\Users\\vladimir.denda\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.1\\microsoft.aspnetcore.authentication.jwtbearer.3.1.1.nupkg.sha512",
     "C:\\Users\\vladimir.denda\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.0.0\\microsoft.aspnetcore.authorization.2.0.0.nupkg.sha512",
     "C:\\Users\\vladimir.denda\\.nuget\\packages\\microsoft.aspnetcore.authorization.policy\\2.0.0\\microsoft.aspnetcore.authorization.policy.2.0.0.nupkg.sha512",
     "C:\\Users\\vladimir.denda\\.nuget\\packages\\microsoft.aspnetcore.hosting.abstractions\\2.0.0\\microsoft.aspnetcore.hosting.abstractions.2.0.0.nupkg.sha512",
